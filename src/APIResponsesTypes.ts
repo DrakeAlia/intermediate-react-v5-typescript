@@ -11,11 +11,10 @@ export interface Pet {
   state: string;
 }
 
-
 export interface PetAPIResponse {
-    numberOfResults: number;
-    startIndex: number;
-    endIndex: number;
-    hasNext: boolean;
-    pets: Pet[]; 
+  numberOfResults: number;
+  startIndex: number;
+  endIndex: number;
+  hasNext: boolean;
+  pets: Pet[];
 }
